@@ -1,14 +1,12 @@
 {
-  "name": "word-finder",
-  "version": "0.0.4-28",
-  "description": "A website that will help you with 'Whats the Phrase' and 'Words With Friends'",
+  "name": "wonder-the-word",
   "main": "server.js",
   "scripts": {
-    "start": "node start.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/amirrajan/word-finder.git"
+    "url": "git://github.com/GargPrince/wonder-the-word-game.git"
   },
   "dependencies": {
     "babel-core": "^6.7.7",
@@ -20,9 +18,8 @@
     "jasmine-node": "~1.11",
     "lodash": "^4.11.1"
   },
-  "subdomain": "word-finder",
   "engines": {
-    "node": ">=0.8.x"
+    "node": ">=4.6.x"
   },
   "devDependencies": {
     "babel-core": "^6.7.7"
